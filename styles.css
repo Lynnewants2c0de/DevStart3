@@ -1,0 +1,80 @@
+body{
+    margin:0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.header div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header img{
+    height:30px;
+    display:block;
+}
+
+h1{
+    font-size: 30px;
+    margin: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: rgb(109,15,172);
+    border: solid 2px white;
+    color: white;
+    padding: 8px 17px;
+    border-radius: 8px;
+}
+button1{
+    background-color: white;
+    border: solid 2px rgb(109,15,172);
+    color: rgb(109, 15, 172);
+    padding: 8px 17px;
+    border-radius: 8px;
+}
+.container {    
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.purple{
+   background-color: rgb(204, 181, 219);
+}
+.purple.container{
+    display: flex;
+
+}
+.hero img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    size: 500px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+}
+
+
